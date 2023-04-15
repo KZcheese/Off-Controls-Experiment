@@ -92,7 +92,7 @@ namespace Unity.FPS.Gameplay
         {
             if(CanProcessInput())
             {
-                return Input.GetButtonDown(GameConstants.k_ButtonNameJump);
+                return Input.GetButtonDown(GameConstants.k_ButtonNameGamepadBumpers);
             }
 
             return false;
@@ -102,7 +102,7 @@ namespace Unity.FPS.Gameplay
         {
             if(CanProcessInput())
             {
-                return Input.GetButton(GameConstants.k_ButtonNameJump);
+                return Input.GetButton(GameConstants.k_ButtonNameGamepadBumpers);
             }
 
             return false;
